@@ -58,3 +58,6 @@ def express(obj: Any) -> dict | list[dict]:
         output = obj
 
     return output
+
+
+Abstraction = BaseModel
