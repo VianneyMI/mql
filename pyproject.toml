@@ -36,6 +36,7 @@ Repository = "https://github.com/VianneyMI/mql"
 Documentation = "https://github.com/thibaultbetremieux/mql#readme"
 
 [tool.setuptools]
+package-dir = {"" = "src"}
 packages = ["mql"]
 
 [tool.black]
